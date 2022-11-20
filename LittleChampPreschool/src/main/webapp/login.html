@@ -1,0 +1,93 @@
+<!DOCTYPE html>   
+<html>   
+<head>  
+<meta name="viewport" content="width=device-width, initial-scale=1">  
+<title> Login Page </title>  
+<style>   
+Body {  
+  font-family: Calibri, Helvetica, sans-serif;  
+  background-color: pink;  
+}  
+button {   
+       background-color: #4CAF50;   
+       width: 100%;  
+        color: orange;   
+        padding: 15px;   
+        margin: 10px 0px;   
+        border: none;   
+        cursor: pointer;   
+         }   
+ form {   
+        border: 3px solid #f1f1f1;   
+    }   
+ input[type=text], input[type=password] {   
+        width: 100%;   
+        margin: 8px 0;  
+        padding: 12px 20px;   
+        display: inline-block;   
+        border: 2px solid green;   
+        box-sizing: border-box;   
+    }  
+ button:hover {   
+        opacity: 0.7;   
+    }   
+  .cancelbtn {   
+        width: auto;   
+        padding: 10px 18px;  
+        margin: 10px 5px;  
+    } 
+    
+ /* Center the avatar image inside this container */
+.imgcontainer {
+  text-align: center;
+ 
+   
+  height: 200px;
+}
+
+/* Avatar image */
+img.avatar {
+  width: 30%;
+  border-radius: 30%;
+   width: 200px;
+  height: 200px;
+}
+ 
+ h1{
+ background-color:red;
+ }       
+     
+ .container {   
+        padding: 25px;   
+        background-color: lightblue;  
+    }   
+</style>   
+</head>    
+<body>    
+    <center> <h1> Student Login Form </h1> </center>   
+    <form> 
+    <div class="imgcontainer">
+    <img src="https://www.schooljotter.com/wp-content/uploads/2016/04/shutterstock78643030.jpg" alt="Avatar" class="avatar">
+  </div>
+        <div class="container">
+        	   
+            <label>Username : </label>   
+            <input type="text" placeholder="Enter Username" name="username" required>  
+            <label>Password : </label>   
+            <input type="password" placeholder="Enter Password" name="password" required>  
+            <button type="submit">Login</button>
+            <h2>if don't have account</h2> 
+           
+    <li><a href="signup.html">Signup</a></li>  
+            <input type="checkbox" checked="checked"> Remember me   
+            <button type="button" class="cancelbtn"> Cancel</button>   
+            Forgot <a href="#"> password? </a>   
+        </div>   
+    </form>     
+</body>     
+</html> 
+
+
+
+
+
